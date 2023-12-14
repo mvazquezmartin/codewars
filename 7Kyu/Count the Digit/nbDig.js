@@ -4,7 +4,7 @@ function nbDig(n, d) {
   return squares
     .join("")
     .split("")
-    .filter((e) => e === d.toString()).length;
+    .filter((e) => Number(e) === d).length;
 }
 
 console.log(nbDig(10, 1));
