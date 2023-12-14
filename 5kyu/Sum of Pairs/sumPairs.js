@@ -16,6 +16,3 @@ function sumPairs(ints, s) {
 
 console.log(sumPairs([11, 3, 7, 5], 10));
 
-const mySet = new Set()
-mySet.add(4)
-console.log(mySet)
