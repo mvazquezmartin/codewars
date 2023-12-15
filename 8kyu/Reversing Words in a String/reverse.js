@@ -1,5 +1,5 @@
-function reverse(string){
-  return string.split(" ").reverse().join(" ")
+function reverse(string) {
+  return string.split(" ").reverse().join(" ");
 }
 
-console.log(reverse("I am an expert at this"))
+console.log(reverse("I am an expert at this")); //this at expert an am I
