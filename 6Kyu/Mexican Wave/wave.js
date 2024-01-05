@@ -1,12 +1,13 @@
 function wave(str) {
-  const strLower = str.toLowerCase();
-  const myWave = [];
-  for (let i = 0; i < strLower.length; i++) {
-    const upperLater =
-      strLower.slice(0, i) + strLower[i].toUpperCase() + strLower.slice(i + 1);
-    myWave.push(upperLater);
+  const result = [];
+
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] !== " ") {
+      result.push(str.slice(0, i) + str[i].toUpperCase() + str.slice(i + 1));
+    }
   }
-  return myWave;
+
+  return result;
 }
 
 function wave2(str) {
